@@ -1,0 +1,9 @@
+/home/shivesh/Desktop/Project/server/index.js:172
+    console.log(\`Server running at http://localhost:\${port}\`);
+                ^
+
+SyntaxError: Invalid or unexpected token
+    at wrapSafe (node:internal/modules/cjs/loader:1692:18)
+    at checkSyntax (node:internal/main/check_syntax:76:3)
+
+Node.js v24.13.0
