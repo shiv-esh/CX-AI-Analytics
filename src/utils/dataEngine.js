@@ -1,15 +1,15 @@
 
+import alasql from 'alasql';
 import { MOCK_FEEDBACK_DATA } from '../data/mockData';
 
 const BASE_URL = 'http://localhost:3000/api/analyze';
 
-export const processQuery = async (query) => {
+export const processQuery = async (query, context = null) => {
     try {
-        // 1. Get Intent from Backend
         const response = await fetch(BASE_URL, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ question: query })
+            body: JSON.stringify({ question: query, context: context })
         });
 
         if (!response.ok) {
@@ -19,13 +19,13 @@ export const processQuery = async (query) => {
         const intent = await response.json();
         console.log("AI Intent:", intent);
 
-        return executeIntent(intent);
+        const result = executeIntent(intent);
+        return { ...result, intent };
 
     } catch (error) {
         console.error("Query processing failed:", error);
-        // Fallback or error state
         return {
-            answerText: "I'm having trouble connecting to the AI brain. Please make sure the backend is running.",
+            answerText: "I'm having trouble connecting to the analytics engine.",
             chartConfig: { type: 'none', data: [] },
             evidence: []
         };
@@ -33,121 +33,55 @@ export const processQuery = async (query) => {
 };
 
 const executeIntent = (intent) => {
-    if (!intent) return { answerText: "Error: No intent received.", chartConfig: { type: 'none', data: [] }, evidence: [] };
-
-    // Normalize Intent Structure (Gemini sometimes varies)
-    let { filters = {}, metric = 'count', group_by, chart_type, summary_hint } = intent;
-
-    // Handle Array Filters (conversion to object)
-    if (Array.isArray(filters)) {
-        const objFilters = {};
-        filters.forEach(f => {
-            if (f.field && f.value) objFilters[f.field] = f.value;
-        });
-        filters = objFilters;
+    if (!intent || !intent.sql) {
+        return { answerText: "No query generated.", chartConfig: { type: 'none', data: [] }, evidence: [] };
     }
 
-    // Handle Array Group By
-    if (Array.isArray(group_by)) group_by = group_by[0];
+    let sql = intent.sql;
 
-    // Normalize Metric Names
-    if (metric === 'nps_score') metric = 'avg_nps';
-
-    // Normalize Chart Type
-    if (chart_type === 'line_chart') chart_type = 'line';
-
-    console.log("Normalized Intent:", { filters, metric, group_by, chart_type });
-
-    // 1. Filter Data
-    let filteredData = MOCK_FEEDBACK_DATA.filter(item => {
-        // Multi-field check
-        for (const [key, value] of Object.entries(filters)) {
-            if (!value) continue;
-
-            // Handle specific field aliases if any
-            const dataKey = key === 'brand' ? 'brand_name' : key;
-
-            if (item[dataKey]) {
-                if (String(item[dataKey]).toLowerCase() !== String(value).toLowerCase()) return false;
-            }
-        }
-
-        // Date Range Logic
-        if (filters.date_range) {
-            const itemDate = new Date(item.date);
-            const today = new Date('2023-11-15');
-
-            if (filters.date_range === 'last_7_days') {
-                const cutoff = new Date(today);
-                cutoff.setDate(today.getDate() - 7);
-                if (itemDate < cutoff || itemDate > today) return false;
-            } else if (filters.date_range === 'this_month') {
-                if (itemDate.getMonth() !== today.getMonth() || itemDate.getFullYear() !== today.getFullYear()) return false;
-            }
-        }
-        return true;
-    });
-
-    console.log(`Matched ${filteredData.length} records.`);
-
-    // 2. Grouping & Metrics
-    let chartData = [];
-    let xKey = 'name';
-
-    if (group_by && filteredData.length > 0) {
-        xKey = (group_by === 'date' || group_by === 'time') ? 'date' : 'name';
-
-        const groups = filteredData.reduce((acc, item) => {
-            const key = (group_by === 'date' || group_by === 'time') ? item.date : item[group_by] || 'Unknown';
-            if (!acc[key]) acc[key] = { count: 0, totalNps: 0, totalRating: 0 };
-
-            acc[key].count += 1;
-            acc[key].totalNps += (item.nps_score || 0);
-            acc[key].totalRating += (item.rating || 0);
-            return acc;
-        }, {});
-
-        chartData = Object.keys(groups).map(key => {
-            const g = groups[key];
-            let value = 0;
-            if (metric === 'count') value = g.count;
-            else if (metric === 'avg_nps') value = Number((g.totalNps / g.count).toFixed(1));
-            else if (metric === 'avg_rating') value = Number((g.totalRating / g.count).toFixed(1));
-
-            return { [xKey]: key, value, name: key };
-        });
-
-        if (xKey === 'date') {
-            chartData.sort((a, b) => new Date(a.date) - new Date(b.date));
-        }
-    } else {
-        let value = 0;
-        const count = filteredData.length;
-        if (count > 0) {
-            if (metric === 'count') value = count;
-            else if (metric === 'avg_nps') value = Number((filteredData.reduce((s, i) => s + (i.nps_score || 0), 0) / count).toFixed(1));
-            else if (metric === 'avg_rating') value = Number((filteredData.reduce((s, i) => s + (i.rating || 0), 0) / count).toFixed(1));
-        }
-        chartData = [{ name: 'Total', value }];
+    // --- SQL SELF-HEALING (Phi-3 Hallucination Strip) ---
+    // Remove common hallucinations like .com' or weird trailing nonsense
+    if (sql.includes('.com')) {
+        console.warn("Self-healing: Removed hallucination from SQL");
+        // Regex to find things like "OR something.com'" or "AND something.com'"
+        sql = sql.replace(/(OR|AND)\s+[^']*?\.com.*?'/gi, '');
+        // Clean up any double-closed parentheses if they were left over
+        sql = sql.replace(/\(\s*\)/g, '(TRUE)');
     }
+    // Ensure table name is Correct
+    sql = sql.replace(/FROM\s+\S+/i, 'FROM ?');
 
-    // 3. Answer Text
-    let answerText = summary_hint;
-    if (!answerText || answerText.includes("analysis based on your query")) {
-        const metricName = metric === 'avg_nps' ? 'Avg NPS' : 'Feedback count';
-        const storeStr = filters.store_name ? ` at ${filters.store_name}` : '';
-        const brandStr = filters.brand_name ? ` for ${filters.brand_name}` : '';
-        answerText = `Found ${filteredData.length} records. Showing ${metricName}${brandStr}${storeStr}.`;
+    try {
+        // 1. Execute SQL using AlaSQL
+        const chartData = alasql(sql, [MOCK_FEEDBACK_DATA]);
+        console.log("AlaSQL Results:", chartData);
+
+        // 2. Get Evidence (Raw filtered data)
+        let evidence = [];
+        const whereMatch = sql.match(/WHERE\s+(.+?)(?:\s+GROUP BY|\s+ORDER BY|$)/i);
+        if (whereMatch) {
+            const evidenceSql = `SELECT * FROM ? WHERE ${whereMatch[1]}`;
+            evidence = alasql(evidenceSql, [MOCK_FEEDBACK_DATA]);
+        } else {
+            evidence = MOCK_FEEDBACK_DATA;
+        }
+
+        return {
+            answerText: intent.summary_hint || "Analysis complete.",
+            chartConfig: {
+                type: intent.chart_type || 'bar',
+                data: chartData,
+                xKey: intent.xKey || 'name',
+                dataKey: intent.dataKey || 'count'
+            },
+            evidence: evidence.slice(0, 50)
+        };
+    } catch (err) {
+        console.error("AlaSQL Execution Error:", err);
+        return {
+            answerText: `I encountered an error executing your query: ${err.message}. This usually happens if the AI generates slightly incorrect SQL. Please try rephrasing or clearing the session.`,
+            chartConfig: { type: 'none', data: [] },
+            evidence: []
+        };
     }
-
-    return {
-        answerText: filteredData.length === 0 ? "No records found for this selection." : answerText,
-        chartConfig: {
-            type: chart_type || (group_by === 'date' ? 'line' : 'bar'),
-            data: chartData,
-            xKey: xKey,
-            dataKey: 'value'
-        },
-        evidence: filteredData
-    };
 };

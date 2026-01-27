@@ -18,6 +18,7 @@ function App() {
         }
     ]);
     const [input, setInput] = useState('');
+    const [lastIntent, setLastIntent] = useState(null);
     const [loading, setLoading] = useState(false);
     const messagesEndRef = useRef(null);
 
@@ -43,10 +44,16 @@ function App() {
         setInput('');
         setLoading(true);
 
-        // Await the asynchronous processQuery call
+        // Await the asynchronous processQuery call with context
         try {
-            const response = await processQuery(userMessage.content);
+            const response = await processQuery(userMessage.content, lastIntent);
             console.log("Response from engine:", response);
+
+            // Update the last intent for follow-up queries
+            if (response.intent) {
+                setLastIntent(response.intent);
+            }
+
             const botMessage = {
                 id: Date.now() + 1,
                 type: 'bot',
@@ -62,17 +69,41 @@ function App() {
         }
     };
 
+    const resetContext = () => {
+        setLastIntent(null);
+        setMessages(prev => [...prev, {
+            id: Date.now(),
+            type: 'bot',
+            content: {
+                answerText: "Context has been reset. How can I help you from scratch?",
+                chartConfig: { type: 'none', data: [] },
+                evidence: []
+            }
+        }]);
+    };
+
     return (
         <div className="flex bg-gray-50 min-h-screen font-sans text-gray-900">
             <Sidebar />
 
             <main className="ml-64 flex-1 flex flex-col h-screen relative">
                 {/* Header */}
-                <header className="bg-white border-b border-gray-200 px-8 py-4 shadow-sm z-10 sticky top-0">
+                <header className="bg-white border-b border-gray-200 px-8 py-4 shadow-sm z-10 sticky top-0 flex items-center justify-between">
                     <h2 className="text-xl font-semibold flex items-center gap-2 text-gray-800">
                         <Sparkles className="w-5 h-5 text-yellow-500" />
                         AI Insights Dashboard
+                        {lastIntent && <span className="text-[10px] font-medium text-blue-500 bg-blue-50 px-2 py-0.5 rounded-full border border-blue-100 animate-pulse ml-2 flex items-center gap-1"><span className="w-1 h-1 bg-blue-500 rounded-full"></span>Context Active</span>}
                     </h2>
+
+                    {lastIntent && (
+                        <button
+                            onClick={resetContext}
+                            className="text-xs font-medium text-gray-400 hover:text-red-500 transition-colors flex items-center gap-1 group py-1 px-2 hover:bg-red-50 rounded-lg"
+                        >
+                            Clear Session
+                            <span className="w-3.5 h-3.5 rounded-full border border-gray-300 flex items-center justify-center text-[8px] group-hover:border-red-400">×</span>
+                        </button>
+                    )}
                 </header>
 
                 {/* Chat Feed */}

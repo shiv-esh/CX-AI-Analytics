@@ -19,50 +19,52 @@ if (!apiKey) {
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const SYSTEM_PROMPT = `
-You are an analytics orchestrator for a Customer Experience (CX) dashboard.
-You translate natural language into structured JSON intent.
+You are a CX Analytics Expert. Convert natural language to AlaSQL for execution on a JSON dataset.
+Table name is ALWAYS ?.
 
-Dataset fields:
+**Schema:**
 - date (YYYY-MM-DD)
 - store_name ("Dubai Mall", "City Center", "Mall of Emirates")
 - brand_name ("Nike", "Adidas")
 - nps_score (0-10)
+- rating (1-5) 
 - sentiment ("Positive", "Neutral", "Negative")
 - category ("Billing Time", "Staff Behavior", "Product Quality", "Store Ambience", "Inventory")
+- customer_segment ("Gold", "Silver", "Bronze")
 
-Rules:
-1. metric: "count", "avg_nps", or "avg_rating".
-2. group_by: "date", "store_name", "brand_name", "category", or null.
-3. chart_type: "line" (for trends), "bar" (comparisons), or "stat" (single value).
-4. filters: An object where keys match field names.
-
-Expected JSON schema:
+**Output Format (STRICT JSON):**
 {
-  "filters": {
-    "store_name": string | null,
-    "brand_name": string | null,
-    "sentiment": string | null,
-    "category": string | null,
-    "date_range": string | null
-  },
-  "metric": "count" | "avg_nps",
-  "group_by": "date" | "store_name" | "brand_name" | "category" | null,
-  "chart_type": "line" | "bar" | "stat",
-  "summary_hint": string
+  "sql": "SELECT ... FROM ?",
+  "chart_type": "bar" | "line" | "stat",
+  "xKey": "column_for_xaxis",
+  "dataKey": "column_for_yaxis",
+  "summary_hint": "Natural language summary of what is being shown",
+  "filters": { "field": "value" }
 }
 
-Return ONLY JSON.
+**Rules:**
+1. Use AVG(rating), AVG(nps_score), or COUNT(*).
+2. For comparisons/breakdowns, use GROUP BY.
+3. Use single quotes for strings: 'Nike'.
+4. DRILL-DOWN: You will receive the "Previous Intent". Merge new filters onto old ones or pivot as requested.
+
+Answer ONLY with JSON. No prose.
 `;
 
 app.post('/api/analyze', async (req, res) => {
     try {
-        const { question } = req.body;
+        const { question, context } = req.body;
         if (!question) return res.status(400).json({ error: 'Question is required' });
 
         const model = genAI.getGenerativeModel({
             model: "gemini-2.5-flash",
             generationConfig: { responseMimeType: "application/json" }
         });
+
+        let prompt = question;
+        if (context) {
+            prompt = `Previous Intent: ${JSON.stringify(context)}. New follow-up: "${question}"`;
+        }
 
         const chat = model.startChat({
             history: [
@@ -71,17 +73,14 @@ app.post('/api/analyze', async (req, res) => {
             ]
         });
 
-        const result = await chat.sendMessage(question);
+        const result = await chat.sendMessage(prompt);
         const response = await result.response;
         const text = response.text();
 
         console.log("Gemini Response:", text);
 
-        // Extract JSON from potential markdown blocks or stray text
         const jsonMatch = text.match(/\{[\s\S]*\}/);
-        if (!jsonMatch) {
-            throw new Error("No valid JSON found in AI response");
-        }
+        if (!jsonMatch) throw new Error("No valid JSON found");
 
         res.json(JSON.parse(jsonMatch[0]));
 
@@ -92,5 +91,5 @@ app.post('/api/analyze', async (req, res) => {
 });
 
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    console.log(`CX Analytics Server (Gemini Powered) running at http://localhost:${port}`);
 });
