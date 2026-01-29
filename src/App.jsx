@@ -129,7 +129,7 @@ function App() {
         <div className="flex bg-gray-50 min-h-screen font-sans text-gray-900 overflow-hidden">
             <Sidebar activeTab={activeTab} onTabChange={setActiveTab} />
 
-            <main className="ml-64 flex-1 flex flex-col h-screen relative">
+            <main className="pl-64 flex-1 flex flex-col h-screen relative w-full">
 
                 {activeTab === 'Dashboard' ? (
                     <>

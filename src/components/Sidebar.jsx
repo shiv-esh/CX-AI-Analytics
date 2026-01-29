@@ -4,7 +4,7 @@ import { LayoutDashboard, History, Settings, Bot, Database } from 'lucide-react'
 
 const Sidebar = ({ activeTab, onTabChange }) => {
     return (
-        <div className="w-64 bg-gray-900 h-screen text-white flex flex-col p-4 shadow-lg fixed left-0 top-0">
+        <div className="w-64 bg-gray-900 h-screen text-white flex flex-col p-4 shadow-lg fixed left-0 top-0 z-50">
             <div className="flex items-center gap-3 mb-10 px-2 pt-2">
                 <Bot className="w-8 h-8 text-blue-400" />
                 <h1 className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-400">
