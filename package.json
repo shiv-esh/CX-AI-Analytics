@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "alasql": "^4.17.0",
+    "groq-sdk": "^0.37.0",
     "lucide-react": "^0.330.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
