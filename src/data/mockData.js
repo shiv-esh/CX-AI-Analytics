@@ -4,12 +4,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-03",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 414,
-    "items_purchased": [
-      "Suede Classic",
-      "Suede Classic",
-      "Suede Classic"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -23,10 +17,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-18",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 184,
-    "items_purchased": [
-      "Running Tee"
-    ],
     "discount_applied": false,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -40,10 +30,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-25",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 250,
-    "items_purchased": [
-      "Training Socks"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -57,11 +43,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-12",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 534,
-    "items_purchased": [
-      "Curry Sneakers",
-      "Curry Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -75,12 +56,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-20",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 659,
-    "items_purchased": [
-      "Suede Classic",
-      "Suede Classic",
-      "RS-X Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -94,12 +69,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-02",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 552,
-    "items_purchased": [
-      "Suede Classic",
-      "Hoodie",
-      "Cap"
-    ],
     "discount_applied": false,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -113,10 +82,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-12",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 128,
-    "items_purchased": [
-      "Suede Classic"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -130,12 +95,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-25",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 759,
-    "items_purchased": [
-      "RS-X Sneakers",
-      "RS-X Sneakers",
-      "Joggers"
-    ],
     "discount_applied": false,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -149,12 +108,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-23",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 774,
-    "items_purchased": [
-      "Suede Classic",
-      "Hoodie",
-      "Joggers"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -168,11 +121,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-21",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 176,
-    "items_purchased": [
-      "Air Jordan",
-      "Air Jordan"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -186,10 +134,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-09",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 69,
-    "items_purchased": [
-      "Air Jordan"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -203,11 +147,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-10",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 574,
-    "items_purchased": [
-      "Compression Top",
-      "Duffle Bag"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -221,11 +160,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-25",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 280,
-    "items_purchased": [
-      "Suede Classic",
-      "Suede Classic"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -239,10 +173,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-08",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 119,
-    "items_purchased": [
-      "Suede Classic"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -256,10 +186,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-02",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 140,
-    "items_purchased": [
-      "Stan Smith"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -273,12 +199,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-02",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 482,
-    "items_purchased": [
-      "Curry Sneakers",
-      "Leggings",
-      "Leggings"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -292,11 +212,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-23",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 599,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Tracksuit"
-    ],
     "discount_applied": false,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -310,10 +225,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-08",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 106,
-    "items_purchased": [
-      "Gym Bag"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -327,12 +238,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-28",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 575,
-    "items_purchased": [
-      "Cap",
-      "Joggers",
-      "Cap"
-    ],
     "discount_applied": true,
     "nps_score": 0,
     "sentiment": "Negative",
@@ -346,12 +251,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-28",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 564,
-    "items_purchased": [
-      "Gym Bag",
-      "Gym Bag",
-      "Gym Bag"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -365,11 +264,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-20",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 438,
-    "items_purchased": [
-      "Cap",
-      "Joggers"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -383,12 +277,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-27",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 566,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Tracksuit",
-      "Yeezy Slides"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -402,10 +290,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-06",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 75,
-    "items_purchased": [
-      "Air Jordan"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -419,12 +303,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-20",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 687,
-    "items_purchased": [
-      "Hoodie",
-      "Joggers",
-      "Hoodie"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -438,12 +316,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-17",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 594,
-    "items_purchased": [
-      "Curry Sneakers",
-      "Compression Top",
-      "Compression Top"
-    ],
     "discount_applied": false,
     "nps_score": 0,
     "sentiment": "Negative",
@@ -457,12 +329,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-08",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 715,
-    "items_purchased": [
-      "Duffle Bag",
-      "Leggings",
-      "Duffle Bag"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -476,11 +342,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-25",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 330,
-    "items_purchased": [
-      "Compression Top",
-      "Windbreaker"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -494,11 +355,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-16",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 488,
-    "items_purchased": [
-      "Air Jordan",
-      "Air Jordan"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -512,12 +368,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-31",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 713,
-    "items_purchased": [
-      "Joggers",
-      "Joggers",
-      "RS-X Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -531,12 +381,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-26",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 733,
-    "items_purchased": [
-      "Duffle Bag",
-      "Leggings",
-      "Curry Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 0,
     "sentiment": "Negative",
@@ -550,11 +394,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-06",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 593,
-    "items_purchased": [
-      "RS-X Sneakers",
-      "Hoodie"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -568,10 +407,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-17",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 144,
-    "items_purchased": [
-      "Windbreaker"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -585,12 +420,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-24",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 836,
-    "items_purchased": [
-      "Cap",
-      "Cap",
-      "RS-X Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 0,
     "sentiment": "Negative",
@@ -604,10 +433,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-21",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 126,
-    "items_purchased": [
-      "Running Tee"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -621,11 +446,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-28",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 601,
-    "items_purchased": [
-      "Dri-Fit Shorts",
-      "Air Jordan"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -639,10 +459,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-28",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 349,
-    "items_purchased": [
-      "Compression Top"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -656,11 +472,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-27",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 255,
-    "items_purchased": [
-      "Ultraboost",
-      "Tracksuit"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -674,11 +485,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-09",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 389,
-    "items_purchased": [
-      "Tracksuit",
-      "Ultraboost"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -692,12 +498,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-08",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 554,
-    "items_purchased": [
-      "Running Tee",
-      "Air Jordan",
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -711,10 +511,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-17",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 135,
-    "items_purchased": [
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -728,12 +524,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-01",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 587,
-    "items_purchased": [
-      "Cap",
-      "Cap",
-      "Joggers"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -747,11 +537,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-04",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 431,
-    "items_purchased": [
-      "Stan Smith",
-      "Stan Smith"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -765,10 +550,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-17",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 127,
-    "items_purchased": [
-      "RS-X Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -782,11 +563,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-26",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 375,
-    "items_purchased": [
-      "Windbreaker",
-      "Duffle Bag"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -800,11 +576,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-07",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 517,
-    "items_purchased": [
-      "Training Socks",
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -818,12 +589,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-10",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 687,
-    "items_purchased": [
-      "RS-X Sneakers",
-      "Joggers",
-      "RS-X Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -837,10 +602,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-02",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 271,
-    "items_purchased": [
-      "RS-X Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -854,11 +615,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-23",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 491,
-    "items_purchased": [
-      "Leggings",
-      "Windbreaker"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -872,12 +628,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-07",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 614,
-    "items_purchased": [
-      "Stan Smith",
-      "Gym Bag",
-      "Gym Bag"
-    ],
     "discount_applied": true,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -891,10 +641,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-19",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 321,
-    "items_purchased": [
-      "Cap"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -908,12 +654,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-21",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 679,
-    "items_purchased": [
-      "Training Socks",
-      "Air Max",
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": false,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -927,11 +667,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-25",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 358,
-    "items_purchased": [
-      "Curry Sneakers",
-      "Curry Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -945,12 +680,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-11",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 717,
-    "items_purchased": [
-      "Hoodie",
-      "Suede Classic",
-      "Suede Classic"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -964,12 +693,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-10",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 616,
-    "items_purchased": [
-      "Leggings",
-      "Leggings",
-      "Compression Top"
-    ],
     "discount_applied": false,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -983,12 +706,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-10-31",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 970,
-    "items_purchased": [
-      "Hoodie",
-      "Suede Classic",
-      "Hoodie"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1002,12 +719,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-10",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 501,
-    "items_purchased": [
-      "Air Max",
-      "Air Max",
-      "Air Jordan"
-    ],
     "discount_applied": true,
     "nps_score": 0,
     "sentiment": "Negative",
@@ -1021,11 +732,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-11",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 539,
-    "items_purchased": [
-      "Stan Smith",
-      "Stan Smith"
-    ],
     "discount_applied": false,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -1039,12 +745,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-20",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 533,
-    "items_purchased": [
-      "Gym Bag",
-      "Tracksuit",
-      "Stan Smith"
-    ],
     "discount_applied": false,
     "nps_score": 0,
     "sentiment": "Negative",
@@ -1058,10 +758,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-01",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 204,
-    "items_purchased": [
-      "Suede Classic"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1075,11 +771,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-24",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 579,
-    "items_purchased": [
-      "Running Tee",
-      "Running Tee"
-    ],
     "discount_applied": false,
     "nps_score": 0,
     "sentiment": "Negative",
@@ -1093,12 +784,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-30",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 638,
-    "items_purchased": [
-      "Duffle Bag",
-      "Compression Top",
-      "Curry Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1112,12 +797,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-16",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 718,
-    "items_purchased": [
-      "Running Tee",
-      "Running Tee",
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1131,10 +810,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-18",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 78,
-    "items_purchased": [
-      "RS-X Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1148,10 +823,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-03",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 279,
-    "items_purchased": [
-      "Duffle Bag"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1165,12 +836,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-06",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 770,
-    "items_purchased": [
-      "Joggers",
-      "RS-X Sneakers",
-      "Joggers"
-    ],
     "discount_applied": true,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -1184,11 +849,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-14",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 281,
-    "items_purchased": [
-      "RS-X Sneakers",
-      "Suede Classic"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1202,10 +862,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-30",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 59,
-    "items_purchased": [
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -1219,12 +875,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-16",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 549,
-    "items_purchased": [
-      "Gym Bag",
-      "Stan Smith",
-      "Ultraboost"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1238,12 +888,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-07",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 428,
-    "items_purchased": [
-      "Joggers",
-      "RS-X Sneakers",
-      "Cap"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1257,11 +901,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-02",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 352,
-    "items_purchased": [
-      "Cap",
-      "Hoodie"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1275,10 +914,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-09",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 193,
-    "items_purchased": [
-      "Suede Classic"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -1292,12 +927,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-16",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 256,
-    "items_purchased": [
-      "Stan Smith",
-      "Gym Bag",
-      "Gym Bag"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1311,11 +940,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-08",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 113,
-    "items_purchased": [
-      "Ultraboost",
-      "Yeezy Slides"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1329,11 +953,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-04",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 237,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Tracksuit"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1347,11 +966,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-03",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 456,
-    "items_purchased": [
-      "Stan Smith",
-      "Yeezy Slides"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -1365,11 +979,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-06",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 390,
-    "items_purchased": [
-      "Leggings",
-      "Leggings"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -1383,11 +992,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-16",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 500,
-    "items_purchased": [
-      "Ultraboost",
-      "Gym Bag"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1401,12 +1005,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-18",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 566,
-    "items_purchased": [
-      "Running Tee",
-      "Training Socks",
-      "Training Socks"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1420,12 +1018,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-18",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 615,
-    "items_purchased": [
-      "Windbreaker",
-      "Windbreaker",
-      "Windbreaker"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1439,11 +1031,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-10",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 457,
-    "items_purchased": [
-      "Air Jordan",
-      "Air Jordan"
-    ],
     "discount_applied": false,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -1457,12 +1044,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-22",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 969,
-    "items_purchased": [
-      "Stan Smith",
-      "Yeezy Slides",
-      "Stan Smith"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1476,11 +1057,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-13",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 381,
-    "items_purchased": [
-      "Running Tee",
-      "Air Max"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -1494,10 +1070,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-02",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 175,
-    "items_purchased": [
-      "Gym Bag"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1511,11 +1083,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-05",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 375,
-    "items_purchased": [
-      "Joggers",
-      "Hoodie"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1529,10 +1096,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-03",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 290,
-    "items_purchased": [
-      "Gym Bag"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1546,10 +1109,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-06",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 349,
-    "items_purchased": [
-      "Windbreaker"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -1563,11 +1122,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-17",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 210,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Ultraboost"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1581,10 +1135,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-16",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 315,
-    "items_purchased": [
-      "Windbreaker"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1598,12 +1148,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-09",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 644,
-    "items_purchased": [
-      "Suede Classic",
-      "Cap",
-      "Cap"
-    ],
     "discount_applied": true,
     "nps_score": 0,
     "sentiment": "Negative",
@@ -1617,11 +1161,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-27",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 148,
-    "items_purchased": [
-      "Curry Sneakers",
-      "Duffle Bag"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1635,10 +1174,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-27",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 268,
-    "items_purchased": [
-      "Windbreaker"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -1652,10 +1187,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-14",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 155,
-    "items_purchased": [
-      "Running Tee"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -1669,11 +1200,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-22",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 391,
-    "items_purchased": [
-      "RS-X Sneakers",
-      "Cap"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -1687,11 +1213,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-03",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 442,
-    "items_purchased": [
-      "Joggers",
-      "RS-X Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1705,10 +1226,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-05",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 200,
-    "items_purchased": [
-      "Gym Bag"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1722,10 +1239,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-04",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 112,
-    "items_purchased": [
-      "Air Max"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1739,12 +1252,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-01",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 343,
-    "items_purchased": [
-      "Gym Bag",
-      "Tracksuit",
-      "Stan Smith"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -1758,11 +1265,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-16",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 446,
-    "items_purchased": [
-      "RS-X Sneakers",
-      "RS-X Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1776,11 +1278,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-09",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 435,
-    "items_purchased": [
-      "Gym Bag",
-      "Gym Bag"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1794,11 +1291,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-05",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 358,
-    "items_purchased": [
-      "Tracksuit",
-      "Ultraboost"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -1812,12 +1304,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-04",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 651,
-    "items_purchased": [
-      "Hoodie",
-      "RS-X Sneakers",
-      "Hoodie"
-    ],
     "discount_applied": false,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -1831,10 +1317,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-25",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 265,
-    "items_purchased": [
-      "Leggings"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1848,10 +1330,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-18",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 211,
-    "items_purchased": [
-      "Windbreaker"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -1865,10 +1343,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-06",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 159,
-    "items_purchased": [
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -1882,12 +1356,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-09",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 863,
-    "items_purchased": [
-      "Joggers",
-      "Joggers",
-      "RS-X Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 0,
     "sentiment": "Negative",
@@ -1901,12 +1369,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-04",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 553,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Ultraboost",
-      "Gym Bag"
-    ],
     "discount_applied": true,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -1920,10 +1382,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-14",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 317,
-    "items_purchased": [
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": false,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -1937,11 +1395,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-28",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 346,
-    "items_purchased": [
-      "Windbreaker",
-      "Leggings"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -1955,11 +1408,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-16",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 381,
-    "items_purchased": [
-      "Compression Top",
-      "Windbreaker"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -1973,12 +1421,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-14",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 489,
-    "items_purchased": [
-      "RS-X Sneakers",
-      "RS-X Sneakers",
-      "Hoodie"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -1992,11 +1434,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-18",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 553,
-    "items_purchased": [
-      "Curry Sneakers",
-      "Curry Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 0,
     "sentiment": "Negative",
@@ -2010,11 +1447,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-12",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 195,
-    "items_purchased": [
-      "Tracksuit",
-      "Stan Smith"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -2028,10 +1460,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-08",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 244,
-    "items_purchased": [
-      "Hoodie"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -2045,12 +1473,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-25",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 320,
-    "items_purchased": [
-      "Curry Sneakers",
-      "Leggings",
-      "Leggings"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -2064,11 +1486,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-26",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 348,
-    "items_purchased": [
-      "Cap",
-      "RS-X Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2082,11 +1499,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-01",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 297,
-    "items_purchased": [
-      "Compression Top",
-      "Compression Top"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -2100,12 +1512,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-28",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 447,
-    "items_purchased": [
-      "Dri-Fit Shorts",
-      "Air Max",
-      "Training Socks"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2119,10 +1525,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-23",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 63,
-    "items_purchased": [
-      "Gym Bag"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2136,10 +1538,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-25",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 314,
-    "items_purchased": [
-      "Training Socks"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2153,10 +1551,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-19",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 138,
-    "items_purchased": [
-      "Compression Top"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2170,12 +1564,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-08",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 596,
-    "items_purchased": [
-      "Curry Sneakers",
-      "Compression Top",
-      "Curry Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2189,11 +1577,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-23",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 256,
-    "items_purchased": [
-      "Air Jordan",
-      "Running Tee"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2207,10 +1590,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-13",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 156,
-    "items_purchased": [
-      "Windbreaker"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2224,12 +1603,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-14",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 437,
-    "items_purchased": [
-      "Gym Bag",
-      "Stan Smith",
-      "Ultraboost"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2243,10 +1616,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-21",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 297,
-    "items_purchased": [
-      "Duffle Bag"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -2260,11 +1629,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-09",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 479,
-    "items_purchased": [
-      "Ultraboost",
-      "Tracksuit"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -2278,11 +1642,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-24",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 499,
-    "items_purchased": [
-      "Air Max",
-      "Air Max"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2296,10 +1655,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-25",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 293,
-    "items_purchased": [
-      "Ultraboost"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -2313,11 +1668,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-05",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 430,
-    "items_purchased": [
-      "Air Max",
-      "Training Socks"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -2331,10 +1681,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-28",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 210,
-    "items_purchased": [
-      "Duffle Bag"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2348,10 +1694,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-28",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 187,
-    "items_purchased": [
-      "Duffle Bag"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2365,10 +1707,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-09",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 244,
-    "items_purchased": [
-      "Hoodie"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -2382,11 +1720,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-02",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 339,
-    "items_purchased": [
-      "Gym Bag",
-      "Stan Smith"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -2400,11 +1733,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-30",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 623,
-    "items_purchased": [
-      "Leggings",
-      "Duffle Bag"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2418,12 +1746,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-13",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 891,
-    "items_purchased": [
-      "Training Socks",
-      "Training Socks",
-      "Air Jordan"
-    ],
     "discount_applied": false,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -2437,10 +1759,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-26",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 195,
-    "items_purchased": [
-      "Hoodie"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2454,12 +1772,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-19",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 795,
-    "items_purchased": [
-      "Joggers",
-      "RS-X Sneakers",
-      "RS-X Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -2473,10 +1785,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-27",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 287,
-    "items_purchased": [
-      "Ultraboost"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -2490,11 +1798,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-17",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 323,
-    "items_purchased": [
-      "Joggers",
-      "Joggers"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -2508,12 +1811,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-19",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 600,
-    "items_purchased": [
-      "Stan Smith",
-      "Stan Smith",
-      "Yeezy Slides"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2527,12 +1824,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-28",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 738,
-    "items_purchased": [
-      "Air Jordan",
-      "Dri-Fit Shorts",
-      "Air Jordan"
-    ],
     "discount_applied": true,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -2546,11 +1837,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-26",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 312,
-    "items_purchased": [
-      "RS-X Sneakers",
-      "Cap"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -2564,11 +1850,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-20",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 440,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Ultraboost"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -2582,10 +1863,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-20",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 120,
-    "items_purchased": [
-      "Curry Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2599,10 +1876,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-30",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 233,
-    "items_purchased": [
-      "Tracksuit"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -2616,12 +1889,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-07",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 469,
-    "items_purchased": [
-      "Gym Bag",
-      "Yeezy Slides",
-      "Yeezy Slides"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2635,12 +1902,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-24",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 420,
-    "items_purchased": [
-      "Windbreaker",
-      "Compression Top",
-      "Windbreaker"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -2654,12 +1915,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-11",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 577,
-    "items_purchased": [
-      "Compression Top",
-      "Curry Sneakers",
-      "Leggings"
-    ],
     "discount_applied": false,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -2673,11 +1928,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-24",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 381,
-    "items_purchased": [
-      "Stan Smith",
-      "Stan Smith"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -2691,11 +1941,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-08",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 468,
-    "items_purchased": [
-      "Suede Classic",
-      "Suede Classic"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2709,11 +1954,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-13",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 455,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Stan Smith"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -2727,10 +1967,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-28",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 62,
-    "items_purchased": [
-      "Yeezy Slides"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -2744,12 +1980,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-02",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 419,
-    "items_purchased": [
-      "Cap",
-      "Joggers",
-      "RS-X Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2763,10 +1993,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-15",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 347,
-    "items_purchased": [
-      "Windbreaker"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2780,12 +2006,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-02",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 480,
-    "items_purchased": [
-      "Duffle Bag",
-      "Curry Sneakers",
-      "Curry Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2799,11 +2019,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-24",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 487,
-    "items_purchased": [
-      "Windbreaker",
-      "Duffle Bag"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2817,12 +2032,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-09",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 788,
-    "items_purchased": [
-      "Air Jordan",
-      "Air Jordan",
-      "Air Max"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -2836,10 +2045,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-26",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 295,
-    "items_purchased": [
-      "Joggers"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -2853,11 +2058,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-02",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 362,
-    "items_purchased": [
-      "RS-X Sneakers",
-      "Joggers"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -2871,12 +2071,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-07",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 566,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Gym Bag",
-      "Yeezy Slides"
-    ],
     "discount_applied": true,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -2890,10 +2084,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-04",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 112,
-    "items_purchased": [
-      "Hoodie"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -2907,11 +2097,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-11",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 216,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Yeezy Slides"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -2925,11 +2110,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-17",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 362,
-    "items_purchased": [
-      "Gym Bag",
-      "Ultraboost"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -2943,11 +2123,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-12",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 563,
-    "items_purchased": [
-      "Running Tee",
-      "Running Tee"
-    ],
     "discount_applied": true,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -2961,11 +2136,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-08",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 504,
-    "items_purchased": [
-      "Air Max",
-      "Air Jordan"
-    ],
     "discount_applied": false,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -2979,10 +2149,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-22",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 141,
-    "items_purchased": [
-      "Running Tee"
-    ],
     "discount_applied": false,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -2996,12 +2162,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-06",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 770,
-    "items_purchased": [
-      "Duffle Bag",
-      "Compression Top",
-      "Compression Top"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3015,11 +2175,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-13",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 295,
-    "items_purchased": [
-      "Air Max",
-      "Training Socks"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3033,12 +2188,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-16",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 744,
-    "items_purchased": [
-      "Tracksuit",
-      "Stan Smith",
-      "Tracksuit"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3052,12 +2201,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-05",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 496,
-    "items_purchased": [
-      "Leggings",
-      "Windbreaker",
-      "Curry Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -3071,10 +2214,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-13",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 325,
-    "items_purchased": [
-      "Curry Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3088,10 +2227,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-26",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 183,
-    "items_purchased": [
-      "Running Tee"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3105,12 +2240,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-21",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 766,
-    "items_purchased": [
-      "Hoodie",
-      "RS-X Sneakers",
-      "RS-X Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3124,11 +2253,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-04",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 313,
-    "items_purchased": [
-      "Cap",
-      "RS-X Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -3142,11 +2266,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-25",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 398,
-    "items_purchased": [
-      "Air Jordan",
-      "Air Max"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3160,10 +2279,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-09",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 285,
-    "items_purchased": [
-      "Stan Smith"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -3177,10 +2292,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-23",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 238,
-    "items_purchased": [
-      "Air Jordan"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3194,10 +2305,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-15",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 192,
-    "items_purchased": [
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -3211,12 +2318,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-09",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 765,
-    "items_purchased": [
-      "Air Jordan",
-      "Air Max",
-      "Air Max"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3230,12 +2331,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-05",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 746,
-    "items_purchased": [
-      "Air Max",
-      "Dri-Fit Shorts",
-      "Air Jordan"
-    ],
     "discount_applied": true,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -3249,11 +2344,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-29",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 401,
-    "items_purchased": [
-      "Cap",
-      "Suede Classic"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3267,12 +2357,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-25",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 432,
-    "items_purchased": [
-      "Hoodie",
-      "Joggers",
-      "Cap"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3286,12 +2370,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-22",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 396,
-    "items_purchased": [
-      "Duffle Bag",
-      "Compression Top",
-      "Leggings"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3305,11 +2383,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-21",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 618,
-    "items_purchased": [
-      "Windbreaker",
-      "Curry Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -3323,10 +2396,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-16",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 319,
-    "items_purchased": [
-      "Windbreaker"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -3340,11 +2409,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-06",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 275,
-    "items_purchased": [
-      "Gym Bag",
-      "Tracksuit"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3358,12 +2422,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-23",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 621,
-    "items_purchased": [
-      "Compression Top",
-      "Windbreaker",
-      "Windbreaker"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3377,11 +2435,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-06",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 240,
-    "items_purchased": [
-      "Tracksuit",
-      "Ultraboost"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3395,10 +2448,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-24",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 265,
-    "items_purchased": [
-      "Hoodie"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3412,10 +2461,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-05",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 245,
-    "items_purchased": [
-      "Suede Classic"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3429,12 +2474,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-11",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 592,
-    "items_purchased": [
-      "Cap",
-      "Suede Classic",
-      "RS-X Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -3448,11 +2487,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-06",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 513,
-    "items_purchased": [
-      "Dri-Fit Shorts",
-      "Training Socks"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3466,12 +2500,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-07",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 568,
-    "items_purchased": [
-      "Cap",
-      "Hoodie",
-      "Suede Classic"
-    ],
     "discount_applied": true,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -3485,12 +2513,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-05",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 458,
-    "items_purchased": [
-      "Compression Top",
-      "Leggings",
-      "Compression Top"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3504,10 +2526,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-21",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 190,
-    "items_purchased": [
-      "Leggings"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3521,11 +2539,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-26",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 241,
-    "items_purchased": [
-      "Training Socks",
-      "Air Max"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -3539,11 +2552,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-11",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 421,
-    "items_purchased": [
-      "Training Socks",
-      "Training Socks"
-    ],
     "discount_applied": false,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -3557,11 +2565,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-23",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 466,
-    "items_purchased": [
-      "Windbreaker",
-      "Compression Top"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -3575,11 +2578,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-14",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 355,
-    "items_purchased": [
-      "Suede Classic",
-      "RS-X Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3593,10 +2591,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-10",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 159,
-    "items_purchased": [
-      "Air Jordan"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -3610,12 +2604,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-10-31",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 329,
-    "items_purchased": [
-      "Gym Bag",
-      "Tracksuit",
-      "Gym Bag"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3629,12 +2617,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-19",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 413,
-    "items_purchased": [
-      "Tracksuit",
-      "Stan Smith",
-      "Stan Smith"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -3648,12 +2630,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-23",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 538,
-    "items_purchased": [
-      "Hoodie",
-      "Joggers",
-      "RS-X Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -3667,10 +2643,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-21",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 61,
-    "items_purchased": [
-      "Compression Top"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -3684,12 +2656,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-17",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 636,
-    "items_purchased": [
-      "Dri-Fit Shorts",
-      "Running Tee",
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": true,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3703,11 +2669,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-24",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 400,
-    "items_purchased": [
-      "RS-X Sneakers",
-      "RS-X Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3721,12 +2682,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-18",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 704,
-    "items_purchased": [
-      "Air Jordan",
-      "Air Jordan",
-      "Air Jordan"
-    ],
     "discount_applied": true,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3740,11 +2695,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-25",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 426,
-    "items_purchased": [
-      "Training Socks",
-      "Running Tee"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3758,12 +2708,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-06",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 560,
-    "items_purchased": [
-      "Running Tee",
-      "Running Tee",
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": false,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -3777,11 +2721,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-10",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 617,
-    "items_purchased": [
-      "Tracksuit",
-      "Ultraboost"
-    ],
     "discount_applied": false,
     "nps_score": 0,
     "sentiment": "Negative",
@@ -3795,10 +2734,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-07",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 184,
-    "items_purchased": [
-      "Stan Smith"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -3812,10 +2747,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-30",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 99,
-    "items_purchased": [
-      "Compression Top"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -3829,12 +2760,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-17",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 683,
-    "items_purchased": [
-      "Air Max",
-      "Air Max",
-      "Air Max"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3848,11 +2773,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-10",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 243,
-    "items_purchased": [
-      "Cap",
-      "Cap"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3866,10 +2786,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-05",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 175,
-    "items_purchased": [
-      "Running Tee"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -3883,11 +2799,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-16",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 458,
-    "items_purchased": [
-      "Stan Smith",
-      "Gym Bag"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -3901,11 +2812,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-26",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 497,
-    "items_purchased": [
-      "Cap",
-      "Cap"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -3919,12 +2825,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-08",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 655,
-    "items_purchased": [
-      "Windbreaker",
-      "Duffle Bag",
-      "Windbreaker"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3938,10 +2838,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-20",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 243,
-    "items_purchased": [
-      "Tracksuit"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -3955,10 +2851,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-16",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 226,
-    "items_purchased": [
-      "Windbreaker"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3972,11 +2864,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-28",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 362,
-    "items_purchased": [
-      "Leggings",
-      "Windbreaker"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -3990,10 +2877,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-07",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 175,
-    "items_purchased": [
-      "Curry Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4007,11 +2890,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-21",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 393,
-    "items_purchased": [
-      "Leggings",
-      "Leggings"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4025,11 +2903,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-24",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 425,
-    "items_purchased": [
-      "Ultraboost",
-      "Ultraboost"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -4043,10 +2916,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-27",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 97,
-    "items_purchased": [
-      "Leggings"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -4060,12 +2929,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-20",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 688,
-    "items_purchased": [
-      "Air Max",
-      "Dri-Fit Shorts",
-      "Running Tee"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4079,10 +2942,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-20",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 280,
-    "items_purchased": [
-      "Joggers"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4096,10 +2955,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-02",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 233,
-    "items_purchased": [
-      "Training Socks"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4113,11 +2968,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-09",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 498,
-    "items_purchased": [
-      "Hoodie",
-      "Joggers"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4131,11 +2981,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-05",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 344,
-    "items_purchased": [
-      "Dri-Fit Shorts",
-      "Training Socks"
-    ],
     "discount_applied": false,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -4149,12 +2994,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-06",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 639,
-    "items_purchased": [
-      "Training Socks",
-      "Dri-Fit Shorts",
-      "Running Tee"
-    ],
     "discount_applied": true,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -4168,11 +3007,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-03",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 275,
-    "items_purchased": [
-      "Gym Bag",
-      "Yeezy Slides"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -4186,11 +3020,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-02",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 422,
-    "items_purchased": [
-      "Dri-Fit Shorts",
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4204,10 +3033,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-10",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 175,
-    "items_purchased": [
-      "Cap"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -4221,10 +3046,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-24",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 85,
-    "items_purchased": [
-      "Cap"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4238,12 +3059,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-24",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 514,
-    "items_purchased": [
-      "Training Socks",
-      "Running Tee",
-      "Air Max"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4257,10 +3072,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-08",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 227,
-    "items_purchased": [
-      "Hoodie"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4274,10 +3085,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-19",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 346,
-    "items_purchased": [
-      "Air Max"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4291,12 +3098,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-16",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 678,
-    "items_purchased": [
-      "Air Jordan",
-      "Air Jordan",
-      "Air Max"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4310,10 +3111,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-07",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 87,
-    "items_purchased": [
-      "Hoodie"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -4327,11 +3124,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-16",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 450,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Yeezy Slides"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4345,11 +3137,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-18",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 177,
-    "items_purchased": [
-      "Hoodie",
-      "Cap"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4363,12 +3150,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-03",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 495,
-    "items_purchased": [
-      "Air Jordan",
-      "Running Tee",
-      "Air Jordan"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4382,12 +3163,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-08",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 641,
-    "items_purchased": [
-      "Duffle Bag",
-      "Leggings",
-      "Windbreaker"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4401,12 +3176,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-03",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 448,
-    "items_purchased": [
-      "Leggings",
-      "Curry Sneakers",
-      "Compression Top"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4420,10 +3189,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-21",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 344,
-    "items_purchased": [
-      "Stan Smith"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -4437,10 +3202,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-26",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 107,
-    "items_purchased": [
-      "Tracksuit"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -4454,12 +3215,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-15",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 694,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Yeezy Slides",
-      "Tracksuit"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4473,10 +3228,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-22",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 161,
-    "items_purchased": [
-      "Duffle Bag"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4490,12 +3241,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-26",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 517,
-    "items_purchased": [
-      "Suede Classic",
-      "Suede Classic",
-      "Cap"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4509,10 +3254,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-10-31",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 93,
-    "items_purchased": [
-      "Compression Top"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4526,12 +3267,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-23",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 639,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Ultraboost",
-      "Ultraboost"
-    ],
     "discount_applied": false,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -4545,10 +3280,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-02",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 184,
-    "items_purchased": [
-      "Air Jordan"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4562,10 +3293,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-21",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 296,
-    "items_purchased": [
-      "Air Max"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -4579,10 +3306,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-17",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 207,
-    "items_purchased": [
-      "Leggings"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -4596,10 +3319,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-02",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 101,
-    "items_purchased": [
-      "Joggers"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -4613,11 +3332,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-22",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 445,
-    "items_purchased": [
-      "Ultraboost",
-      "Ultraboost"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4631,10 +3345,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-02",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 325,
-    "items_purchased": [
-      "Running Tee"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4648,10 +3358,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-22",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 206,
-    "items_purchased": [
-      "Air Max"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -4665,10 +3371,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-11",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 101,
-    "items_purchased": [
-      "Air Jordan"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4682,11 +3384,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-06",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 651,
-    "items_purchased": [
-      "Air Jordan",
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4700,10 +3397,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-07",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 76,
-    "items_purchased": [
-      "Dri-Fit Shorts"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4717,10 +3410,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-06",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 283,
-    "items_purchased": [
-      "Windbreaker"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4734,11 +3423,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-24",
     "brand_name": "Adidas",
     "store_name": "City Center",
-    "basket_value": 390,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Gym Bag"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4752,10 +3436,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-14",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 137,
-    "items_purchased": [
-      "Running Tee"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4769,10 +3449,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-09",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 238,
-    "items_purchased": [
-      "Leggings"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -4786,11 +3462,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-14",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 530,
-    "items_purchased": [
-      "Tracksuit",
-      "Yeezy Slides"
-    ],
     "discount_applied": false,
     "nps_score": 0,
     "sentiment": "Negative",
@@ -4804,10 +3475,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-27",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 71,
-    "items_purchased": [
-      "Training Socks"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -4821,11 +3488,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-19",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 689,
-    "items_purchased": [
-      "Yeezy Slides",
-      "Tracksuit"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4839,11 +3501,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-08",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 212,
-    "items_purchased": [
-      "Stan Smith",
-      "Tracksuit"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -4857,10 +3514,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-22",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 196,
-    "items_purchased": [
-      "Suede Classic"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4874,11 +3527,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-13",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 429,
-    "items_purchased": [
-      "Air Jordan",
-      "Running Tee"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -4892,10 +3540,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-02",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 327,
-    "items_purchased": [
-      "Cap"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4909,12 +3553,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-08",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 868,
-    "items_purchased": [
-      "Cap",
-      "Cap",
-      "Cap"
-    ],
     "discount_applied": true,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -4928,11 +3566,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-25",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 205,
-    "items_purchased": [
-      "Dri-Fit Shorts",
-      "Running Tee"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -4946,11 +3579,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-25",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 546,
-    "items_purchased": [
-      "Stan Smith",
-      "Stan Smith"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -4964,11 +3592,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-05",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 370,
-    "items_purchased": [
-      "Leggings",
-      "Compression Top"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -4982,11 +3605,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-07",
     "brand_name": "Under Armour",
     "store_name": "City Center",
-    "basket_value": 349,
-    "items_purchased": [
-      "Compression Top",
-      "Curry Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -5000,11 +3618,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-26",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 433,
-    "items_purchased": [
-      "Tracksuit",
-      "Ultraboost"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -5018,12 +3631,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-27",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 462,
-    "items_purchased": [
-      "Air Max",
-      "Dri-Fit Shorts",
-      "Running Tee"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -5037,10 +3644,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-09",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 110,
-    "items_purchased": [
-      "Air Max"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -5054,12 +3657,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-26",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 850,
-    "items_purchased": [
-      "Duffle Bag",
-      "Curry Sneakers",
-      "Compression Top"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -5073,10 +3670,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-24",
     "brand_name": "Adidas",
     "store_name": "Mall of Emirates",
-    "basket_value": 302,
-    "items_purchased": [
-      "Ultraboost"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -5090,12 +3683,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-02",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 527,
-    "items_purchased": [
-      "Suede Classic",
-      "Cap",
-      "RS-X Sneakers"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -5109,10 +3696,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-09",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 232,
-    "items_purchased": [
-      "Ultraboost"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -5126,10 +3709,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-16",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 161,
-    "items_purchased": [
-      "Suede Classic"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -5143,11 +3722,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-23",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 289,
-    "items_purchased": [
-      "RS-X Sneakers",
-      "Suede Classic"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -5161,11 +3735,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-14",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 538,
-    "items_purchased": [
-      "Tracksuit",
-      "Ultraboost"
-    ],
     "discount_applied": true,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -5179,11 +3748,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-22",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 462,
-    "items_purchased": [
-      "Tracksuit",
-      "Yeezy Slides"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -5197,10 +3761,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-07",
     "brand_name": "Under Armour",
     "store_name": "Mall of Emirates",
-    "basket_value": 125,
-    "items_purchased": [
-      "Compression Top"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -5214,11 +3774,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-25",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 507,
-    "items_purchased": [
-      "Cap",
-      "Cap"
-    ],
     "discount_applied": false,
     "nps_score": 1,
     "sentiment": "Negative",
@@ -5232,11 +3787,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-16",
     "brand_name": "Nike",
     "store_name": "Mall of Emirates",
-    "basket_value": 320,
-    "items_purchased": [
-      "Air Max",
-      "Air Max"
-    ],
     "discount_applied": true,
     "nps_score": 10,
     "sentiment": "Positive",
@@ -5250,11 +3800,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-05",
     "brand_name": "Under Armour",
     "store_name": "Dubai Mall",
-    "basket_value": 410,
-    "items_purchased": [
-      "Curry Sneakers",
-      "Windbreaker"
-    ],
     "discount_applied": false,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -5268,11 +3813,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-15",
     "brand_name": "Nike",
     "store_name": "City Center",
-    "basket_value": 140,
-    "items_purchased": [
-      "Dri-Fit Shorts",
-      "Air Max"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -5286,12 +3826,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2026-01-27",
     "brand_name": "Puma",
     "store_name": "Mall of Emirates",
-    "basket_value": 383,
-    "items_purchased": [
-      "Cap",
-      "Joggers",
-      "Suede Classic"
-    ],
     "discount_applied": false,
     "nps_score": 2,
     "sentiment": "Negative",
@@ -5305,11 +3839,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-01",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 529,
-    "items_purchased": [
-      "Air Jordan",
-      "Air Max"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -5323,12 +3852,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-10",
     "brand_name": "Nike",
     "store_name": "Dubai Mall",
-    "basket_value": 687,
-    "items_purchased": [
-      "Air Max",
-      "Training Socks",
-      "Training Socks"
-    ],
     "discount_applied": false,
     "nps_score": 3,
     "sentiment": "Negative",
@@ -5342,11 +3865,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-13",
     "brand_name": "Adidas",
     "store_name": "Dubai Mall",
-    "basket_value": 394,
-    "items_purchased": [
-      "Tracksuit",
-      "Yeezy Slides"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -5360,11 +3878,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-11-21",
     "brand_name": "Puma",
     "store_name": "Dubai Mall",
-    "basket_value": 552,
-    "items_purchased": [
-      "Cap",
-      "Suede Classic"
-    ],
     "discount_applied": true,
     "nps_score": 9,
     "sentiment": "Positive",
@@ -5378,11 +3891,6 @@ export const MOCK_FEEDBACK_DATA = [
     "date": "2025-12-07",
     "brand_name": "Puma",
     "store_name": "City Center",
-    "basket_value": 460,
-    "items_purchased": [
-      "Joggers",
-      "RS-X Sneakers"
-    ],
     "discount_applied": false,
     "nps_score": 7,
     "sentiment": "Neutral",
@@ -5391,4 +3899,35 @@ export const MOCK_FEEDBACK_DATA = [
     "customer_segment": "Gold",
     "comment": "Good but expensive."
   }
+];
+
+
+export const INVENTORY_DATA = [
+  // Dubai Mall - Nike
+  { date: '2026-01-31', store_name: 'Dubai Mall', product_id: 'Air Jordan', stock_level: 0, stock_status: 'Out of Stock', category: 'Shoes', brand_name: 'Nike' },
+  { date: '2026-01-31', store_name: 'Dubai Mall', product_id: 'Running Tee', stock_level: 15, stock_status: 'In Stock', category: 'Apparel', brand_name: 'Nike' },
+  { date: '2026-01-31', store_name: 'Dubai Mall', product_id: 'Training Socks', stock_level: 50, stock_status: 'In Stock', category: 'Accessories', brand_name: 'Nike' },
+  
+  // Dubai Mall - Puma
+  { date: '2026-01-31', store_name: 'Dubai Mall', product_id: 'Suede Classic', stock_level: 5, stock_status: 'Low Stock', category: 'Shoes', brand_name: 'Puma' },
+  { date: '2026-01-31', store_name: 'Dubai Mall', product_id: 'RS-X Sneakers', stock_level: 20, stock_status: 'In Stock', category: 'Shoes', brand_name: 'Puma' },
+  { date: '2026-01-31', store_name: 'Dubai Mall', product_id: 'Hoodie', stock_level: 0, stock_status: 'Out of Stock', category: 'Apparel', brand_name: 'Puma' },
+
+  // Mall of Emirates - Adidas
+  { date: '2026-01-31', store_name: 'Mall of Emirates', product_id: 'Stan Smith', stock_level: 2, stock_status: 'Low Stock', category: 'Shoes', brand_name: 'Adidas' },
+  { date: '2026-01-31', store_name: 'Mall of Emirates', product_id: 'Yeezy Slides', stock_level: 0, stock_status: 'Out of Stock', category: 'Shoes', brand_name: 'Adidas' },
+  { date: '2026-01-31', store_name: 'Mall of Emirates', product_id: 'Tracksuit', stock_level: 12, stock_status: 'In Stock', category: 'Apparel', brand_name: 'Adidas' },
+
+  // Mall of Emirates - Under Armour
+  { date: '2026-01-31', store_name: 'Mall of Emirates', product_id: 'Curry Sneakers', stock_level: 8, stock_status: 'In Stock', category: 'Shoes', brand_name: 'Under Armour' },
+  { date: '2026-01-31', store_name: 'Mall of Emirates', product_id: 'Compression Top', stock_level: 30, stock_status: 'In Stock', category: 'Apparel', brand_name: 'Under Armour' },
+  { date: '2026-01-31', store_name: 'Mall of Emirates', product_id: 'Duffle Bag', stock_level: 3, stock_status: 'Low Stock', category: 'Accessories', brand_name: 'Under Armour' },
+
+  // City Center - Nike
+  { date: '2026-01-31', store_name: 'City Center', product_id: 'Air Jordan', stock_level: 25, stock_status: 'In Stock', category: 'Shoes', brand_name: 'Nike' },
+  { date: '2026-01-31', store_name: 'City Center', product_id: 'Dri-Fit Shorts', stock_level: 4, stock_status: 'Low Stock', category: 'Apparel', brand_name: 'Nike' },
+
+  // City Center - Puma
+  { date: '2026-01-31', store_name: 'City Center', product_id: 'Cap', stock_level: 100, stock_status: 'In Stock', category: 'Accessories', brand_name: 'Puma' },
+  { date: '2026-01-31', store_name: 'City Center', product_id: 'Joggers', stock_level: 10, stock_status: 'In Stock', category: 'Apparel', brand_name: 'Puma' },
 ];
