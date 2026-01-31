@@ -10,9 +10,9 @@ const InsightCard = ({ query, response, loading }) => {
 
     if (loading) {
         return (
-            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 flex items-center justify-center gap-3 animate-pulse">
-                <Loader className="w-5 h-5 text-blue-500 animate-spin" />
-                <span className="text-gray-500 font-medium">Processing...</span>
+            <div className="bg-white rounded-xl md:rounded-2xl shadow-sm border border-gray-100 p-4 md:p-6 flex items-center justify-center gap-3 animate-pulse">
+                <Loader className="w-5 h-5 text-blue-500 animate-spin shrink-0" />
+                <span className="text-gray-500 font-medium text-sm md:text-base">Processing...</span>
             </div>
         );
     }
@@ -24,26 +24,26 @@ const InsightCard = ({ query, response, loading }) => {
     const isLine = chartConfig.type === 'line';
 
     return (
-        <div className="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 space-y-6 transition-all duration-300 hover:shadow-xl">
+        <div className="bg-white rounded-xl md:rounded-2xl shadow-lg border border-gray-100 p-4 md:p-6 space-y-4 md:space-y-6 transition-all duration-300 hover:shadow-xl">
             {/* Header */}
-            <div className="pb-4 border-b border-gray-50">
-                <h3 className="text-lg font-semibold text-gray-800 flex items-center gap-2">
-                    <MessageSquare className="w-5 h-5 text-blue-500" />
-                    {query}
+            <div className="pb-3 md:pb-4 border-b border-gray-50">
+                <h3 className="text-base md:text-lg font-semibold text-gray-800 flex items-center gap-2">
+                    <MessageSquare className="w-4 md:w-5 h-4 md:h-5 text-blue-500 shrink-0" />
+                    <span className="line-clamp-2">{query}</span>
                 </h3>
             </div>
 
             {/* Summary */}
-            <p className="text-gray-600 text-base leading-relaxed">{answerText}</p>
+            <p className="text-gray-600 text-sm md:text-base leading-relaxed">{answerText}</p>
 
             {/* Chart */}
             {chartConfig.data && chartConfig.data.length > 0 && (
                 chartConfig.type === 'stat' ? (
-                    <div className="bg-blue-50/50 rounded-2xl p-8 flex flex-col items-center justify-center border border-blue-100 shadow-inner group transition-all duration-300 hover:bg-blue-50">
-                        <div className="text-sm font-bold text-blue-400 uppercase tracking-widest mb-1 group-hover:scale-105 transition-transform">
+                    <div className="bg-blue-50/50 rounded-xl md:rounded-2xl p-6 md:p-8 flex flex-col items-center justify-center border border-blue-100 shadow-inner group transition-all duration-300 hover:bg-blue-50">
+                        <div className="text-xs md:text-sm font-bold text-blue-400 uppercase tracking-widest mb-1 group-hover:scale-105 transition-transform">
                             {chartConfig.summary_hint?.split(' ')[0] || 'Metric'}
                         </div>
-                        <div className="text-6xl font-black text-blue-600 drop-shadow-sm group-hover:scale-110 transition-transform duration-500">
+                        <div className="text-4xl md:text-6xl font-black text-blue-600 drop-shadow-sm group-hover:scale-110 transition-transform duration-500">
                             {(() => {
                                 const row = chartConfig.data[0];
                                 const key = chartConfig.dataKey || Object.keys(row).find(k => !isNaN(parseFloat(row[k]))) || Object.keys(row)[0];
@@ -55,17 +55,17 @@ const InsightCard = ({ query, response, loading }) => {
                             const row = chartConfig.data[0];
                             const labelKey = Object.keys(row).find(k => typeof row[k] === 'string' && k !== 'date');
                             return labelKey ? (
-                                <div className="mt-2 text-xl font-bold text-gray-700 animate-in fade-in zoom-in duration-700">
+                                <div className="mt-2 text-lg md:text-xl font-bold text-gray-700 animate-in fade-in zoom-in duration-700">
                                     {row[labelKey]}
                                 </div>
                             ) : null;
                         })()}
-                        <div className="mt-2 text-gray-400 text-xs font-medium">
+                        <div className="mt-2 text-gray-400 text-[11px] md:text-xs font-medium">
                             Based on {evidence.length} feedback records
                         </div>
                     </div>
                 ) : chartConfig.type === 'pie' ? (
-                    <div className="h-80 w-full mt-4 bg-white rounded-xl p-4 border border-gray-100 flex items-center justify-center">
+                    <div className="h-64 md:h-80 w-full mt-3 md:mt-4 bg-white rounded-lg md:rounded-xl p-3 md:p-4 border border-gray-100 flex items-center justify-center">
                         <ResponsiveContainer width="100%" height="100%">
                             <PieChart>
                                 <Pie
@@ -90,7 +90,7 @@ const InsightCard = ({ query, response, loading }) => {
                         </ResponsiveContainer>
                     </div>
                 ) : (
-                    <div className="h-64 w-full mt-4 bg-gray-50 rounded-xl p-4 border border-gray-100">
+                    <div className="h-64 md:h-80 w-full mt-3 md:mt-4 bg-gray-50 rounded-lg md:rounded-xl p-3 md:p-4 border border-gray-100">
                         <ResponsiveContainer width="100%" height="100%">
                             {isLine ? (
                                 <LineChart data={chartConfig.data}>
@@ -132,39 +132,40 @@ const InsightCard = ({ query, response, loading }) => {
                 <div>
                     <button
                         onClick={() => setShowEvidence(!showEvidence)}
-                        className="flex items-center gap-2 text-sm font-medium text-gray-500 hover:text-blue-600 transition-colors duration-200 group"
+                        className="flex items-center gap-2 text-xs md:text-sm font-medium text-gray-500 hover:text-blue-600 transition-colors duration-200 group"
                     >
-                        <Table className="w-4 h-4" />
-                        {showEvidence ? 'Hide Source Data' : 'View Supporting Comments'}
+                        <Table className="w-3.5 md:w-4 h-3.5 md:h-4 shrink-0" />
+                        <span className="hidden sm:inline">{showEvidence ? 'Hide Source Data' : 'View Supporting Comments'}</span>
+                        <span className="sm:hidden">{showEvidence ? 'Hide' : 'View'}</span>
                         {showEvidence ? (
-                            <ChevronUp className="w-4 h-4 group-hover:-translate-y-0.5 transition-transform" />
+                            <ChevronUp className="w-3.5 md:w-4 h-3.5 md:h-4 group-hover:-translate-y-0.5 transition-transform shrink-0" />
                         ) : (
-                            <ChevronDown className="w-4 h-4 group-hover:translate-y-0.5 transition-transform" />
+                            <ChevronDown className="w-3.5 md:w-4 h-3.5 md:h-4 group-hover:translate-y-0.5 transition-transform shrink-0" />
                         )}
                     </button>
 
                     {/* Data Table */}
                     {showEvidence && (
-                        <div className="mt-4 overflow-x-auto rounded-lg border border-gray-200 animate-in fade-in slide-in-from-top-2 duration-300">
-                            <table className="min-w-full divide-y divide-gray-200">
+                        <div className="mt-3 md:mt-4 overflow-x-auto rounded-lg border border-gray-200 animate-in fade-in slide-in-from-top-2 duration-300">
+                            <table className="w-full divide-y divide-gray-200 text-xs md:text-sm">
                                 <thead className="bg-gray-50">
                                     <tr>
-                                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Date</th>
-                                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Store</th>
-                                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Brand</th>
-                                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Category</th>
-                                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Score</th>
-                                        <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Comment</th>
+                                        <th className="px-3 md:px-6 py-2 md:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">Date</th>
+                                        <th className="px-3 md:px-6 py-2 md:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">Store</th>
+                                        <th className="px-3 md:px-6 py-2 md:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">Brand</th>
+                                        <th className="px-3 md:px-6 py-2 md:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">Category</th>
+                                        <th className="px-3 md:px-6 py-2 md:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap">Score</th>
+                                        <th className="px-3 md:px-6 py-2 md:py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Comment</th>
                                     </tr>
                                 </thead>
                                 <tbody className="bg-white divide-y divide-gray-200">
                                     {evidence.slice(0, visibleCount).map((item) => (
                                         <tr key={item.id} className="hover:bg-gray-50/50 transition-colors">
-                                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{item.date}</td>
-                                            <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{item.store_name}</td>
-                                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-600 font-bold uppercase">{item.brand_name}</td>
-                                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{item.category}</td>
-                                            <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                            <td className="px-3 md:px-6 py-2 md:py-4 whitespace-nowrap text-gray-500">{item.date}</td>
+                                            <td className="px-3 md:px-6 py-2 md:py-4 whitespace-nowrap font-medium text-gray-900">{item.store_name}</td>
+                                            <td className="px-3 md:px-6 py-2 md:py-4 whitespace-nowrap text-gray-600 font-bold uppercase">{item.brand_name}</td>
+                                            <td className="px-3 md:px-6 py-2 md:py-4 whitespace-nowrap text-gray-500">{item.category}</td>
+                                            <td className="px-3 md:px-6 py-2 md:py-4 whitespace-nowrap text-gray-900">
                                                 <span className={`px-2 py-1 rounded-full text-xs font-semibold
                           ${item.sentiment === 'Negative' ? 'bg-red-100 text-red-800' :
                                                         item.sentiment === 'Positive' ? 'bg-green-100 text-green-800' :
@@ -172,17 +173,17 @@ const InsightCard = ({ query, response, loading }) => {
                                                     {item.nps_score}
                                                 </span>
                                             </td>
-                                            <td className="px-6 py-4 text-sm text-gray-600 italic">"{item.comment}"</td>
+                                            <td className="px-3 md:px-6 py-2 md:py-4 text-gray-600 italic max-w-xs truncate">"{item.comment}"</td>
                                         </tr>
                                     ))}
                                 </tbody>
                             </table>
 
                             {evidence.length > visibleCount && (
-                                <div className="p-4 bg-gray-50 border-t border-gray-100 flex justify-center">
+                                <div className="p-3 md:p-4 bg-gray-50 border-t border-gray-100 flex justify-center">
                                     <button
                                         onClick={() => setVisibleCount(prev => prev + 10)}
-                                        className="text-sm font-bold text-blue-600 hover:text-blue-700 hover:underline transition-all"
+                                        className="text-xs md:text-sm font-bold text-blue-600 hover:text-blue-700 hover:underline transition-all"
                                     >
                                         Load More (Showing {visibleCount} of {evidence.length})
                                     </button>

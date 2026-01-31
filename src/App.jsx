@@ -1,6 +1,6 @@
 
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, Bot, User, Sparkles } from 'lucide-react';
+import { Send, Bot, User, Sparkles, Menu } from 'lucide-react';
 import Sidebar from './components/Sidebar';
 import InsightCard from './components/InsightCard';
 import DataView from './components/DataView';
@@ -51,6 +51,7 @@ function App() {
 
     const [loading, setLoading] = useState(false);
     const [activeTab, setActiveTab] = useState('Dashboard');
+    const [sidebarOpen, setSidebarOpen] = useState(false);
     const messagesEndRef = useRef(null);
 
     const scrollToBottom = () => {
@@ -127,18 +128,26 @@ function App() {
 
     return (
         <div className="flex bg-gray-50 min-h-screen font-sans text-gray-900 overflow-hidden">
-            <Sidebar activeTab={activeTab} onTabChange={setActiveTab} />
+            <Sidebar activeTab={activeTab} onTabChange={setActiveTab} isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
-            <main className="pl-64 flex-1 flex flex-col h-screen relative w-full">
+            <main className="md:pl-64 flex-1 flex flex-col h-screen relative w-full">
 
                 {activeTab === 'Dashboard' ? (
                     <>
-                        <header className="bg-white/80 backdrop-blur-md border-b border-gray-200 px-8 py-4 shadow-sm z-10 sticky top-0 flex items-center justify-between">
-                            <h2 className="text-xl font-semibold flex items-center gap-2 text-gray-800">
-                                <Sparkles className="w-5 h-5 text-yellow-500" />
-                                AI Insights Dashboard
-                                {lastIntent && <span className="text-[10px] font-medium text-blue-500 bg-blue-50 px-2 py-0.5 rounded-full border border-blue-100 animate-pulse ml-2 flex items-center gap-1"><span className="w-1 h-1 bg-blue-500 rounded-full"></span>Context Active</span>}
-                            </h2>
+                        <header className="bg-white/80 backdrop-blur-md border-b border-gray-200 px-4 md:px-8 py-4 shadow-sm z-10 sticky top-0 flex items-center justify-between">
+                            <div className="flex items-center gap-4">
+                                <button
+                                    onClick={() => setSidebarOpen(!sidebarOpen)}
+                                    className="md:hidden p-2 hover:bg-gray-100 rounded-lg text-gray-600"
+                                >
+                                    <Menu className="w-6 h-6" />
+                                </button>
+                                <h2 className="text-lg md:text-xl font-semibold flex items-center gap-2 text-gray-800 whitespace-nowrap">
+                                    <Sparkles className="w-5 h-5 text-yellow-500 shrink-0" />
+                                    <span className="hidden sm:inline">AI Insights</span>
+                                    {lastIntent && <span className="text-[8px] md:text-[10px] font-medium text-blue-500 bg-blue-50 px-2 py-0.5 rounded-full border border-blue-100 animate-pulse ml-1 md:ml-2 flex items-center gap-1"><span className="w-1 h-1 bg-blue-500 rounded-full"></span>Active</span>}
+                                </h2>
+                            </div>
 
                             {lastIntent && (
                                 <button
@@ -151,7 +160,7 @@ function App() {
                             )}
                         </header>
 
-                        <div className="flex-1 overflow-y-auto px-8 py-6 space-y-8 scroll-smooth pb-32">
+                        <div className="flex-1 overflow-y-auto px-4 md:px-8 py-6 space-y-6 md:space-y-8 scroll-smooth pb-32">
                             {messages.map((msg) => (
                                 <div key={msg.id} className={`flex gap-4 ${msg.type === 'user' ? 'flex-row-reverse' : ''}`}>
                                     <div className={`w-10 h-10 rounded-full flex items-center justify-center shrink-0 shadow-lg border-2 ${msg.type === 'bot' ? 'bg-gradient-to-br from-blue-500 to-indigo-600 border-white' : 'bg-gray-200 border-white'}`}>
@@ -188,38 +197,37 @@ function App() {
                             <div ref={messagesEndRef} />
                         </div>
 
-                        <div className="absolute bottom-0 w-full bg-white/80 backdrop-blur-md border-t border-gray-200 px-8 py-5 z-20">
+                        <div className="absolute bottom-0 w-full bg-white/80 backdrop-blur-md border-t border-gray-200 px-4 md:px-8 py-4 md:py-5 z-20">
                             <form onSubmit={handleSend} className="max-w-4xl mx-auto relative shadow-xl rounded-2xl">
                                 <input
                                     type="text"
                                     value={input}
                                     onChange={(e) => setInput(e.target.value)}
                                     placeholder="Ask about customer reviews..."
-                                    className="w-full pl-6 pr-16 py-4 rounded-2xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all text-lg shadow-sm placeholder-gray-400 bg-white"
+                                    className="w-full pl-4 md:pl-6 pr-14 md:pr-16 py-3 md:py-4 rounded-2xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 transition-all text-base md:text-lg shadow-sm placeholder-gray-400 bg-white"
                                     autoFocus
                                 />
                                 <button
                                     type="submit"
                                     disabled={!input.trim() || loading}
-                                    className="absolute right-3 top-3 p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-xl transition-all disabled:opacity-50 disabled:cursor-not-allowed hover:scale-105 active:scale-95"
+                                    className="absolute right-2 md:right-3 top-2 md:top-3 p-1.5 md:p-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg md:rounded-xl transition-all disabled:opacity-50 disabled:cursor-not-allowed hover:scale-105 active:scale-95"
                                 >
-                                    <Send className="w-5 h-5" />
+                                    <Send className="w-4 md:w-5 h-4 md:h-5" />
                                 </button>
                             </form>
                         </div>
                     </>
                 ) : activeTab === 'Data' ? (
-                    <div className="flex-1 overflow-hidden">
+                    <div className="flex-1 overflow-hidden w-full">
                         <DataView />
                     </div>
                 ) : (
-                    <div className="flex-1 overflow-y-auto bg-gray-50">
+                    <div className="flex-1 overflow-y-auto bg-gray-50 w-full">
                         <HistoryView
                             history={history}
                             onSelectQuery={(item) => {
-                                // For now, just switch back to dashboard. 
-                                // In a real app we'd scroll to that message.
                                 setActiveTab('Dashboard');
+                                setSidebarOpen(false);
                             }}
                         />
                     </div>
